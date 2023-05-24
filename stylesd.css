@@ -385,13 +385,21 @@ header{
         
         }
 
-
+        .heading{
+            color: white;
+            font-size: 1.4em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 10px 0px;
+            border-bottom: 5px solid rgb(252, 248, 248);
+            text-align: center;
+        }
 
 
          .abt img{
             width: 200px;
             height: 230px;
-           margin: 5px;
+           margin:1px 5px;
             border-radius: 20px;
            
             
@@ -401,7 +409,7 @@ header{
             color: white;
             font-size: 12px;
             width: 350px;
-            padding: 20px 30px;
+            padding: 4px 30px;
             word-spacing:2px;
             letter-spacing:2px;
             text-transform: capitalize;
