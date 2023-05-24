@@ -1,0 +1,468 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    /* font-family: 'Kalam', cursive; */
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif; */
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('portfoio.jfif');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+
+   font-family: 'Poppins', sans-serif;
+   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    */}
+.logo{
+    color: white;
+    font-size: 1.8em;
+    padding: 20px  20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+   
+}
+.lio{
+    color:red;
+}
+.menu a{
+    text-decoration: none;
+    margin: 0 25px;
+    color: white;
+    font-size: 1.4em;
+    text-transform: capitalize;
+    letter-spacing: 1.4px;
+    transition: all .2s;
+    font-weight: 700;
+}
+.menu a:hover{
+    border-bottom: 2px solid palegreen;
+    color: rgb(255, 8, 8);
+    background: palegreen;
+    padding: 5px 7px;
+    border-radius: 8px;
+  
+}
+
+.name{
+    width: 100%;
+    color: white;
+   text-align: center;
+   font-size: 3em;
+   text-transform: uppercase;
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   letter-spacing: 4px;
+   font-family: 'Kalam', cursive;
+     
+}
+
+  .icon{
+    margin-top: 40px;
+  }
+.icon a{
+    color: white;
+    padding: 0px 40px;
+    font-size: 1.1em;
+}
+
+/* ***********************             About section            ********************************** */
+
+.sec{
+    width:100%;
+    height: 100vh;
+    background: #191919;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+}
+.abt{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+
+}
+.flex{
+    display: flex;
+   
+    margin: 50px;
+}
+.heading{
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 0px;
+    border-bottom: 5px solid rgb(252, 248, 248);
+    text-align: center;
+}
+.abt img{
+    width: 370px;
+    height: 350px;
+   margin: 40px;
+    border-radius: 30px;
+   
+    
+}
+.intro{
+    color: white;
+    font-size: 20px;
+    width: 620px;
+    padding: 24px;
+    word-spacing:1.5px;
+    letter-spacing:1.4px;
+    text-transform: capitalize;
+    
+}
+.d-s{
+    color:red;
+   font-weight: 700;
+}
+.bnm
+{
+    color: rgb(123, 240, 205);
+
+}
+.hr{
+    color: aliceblue;
+
+}
+
+
+                         /* ****************    skill section   ************************ */
+
+   .skl{
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+   
+    
+   .mskl{
+    
+    font-size: 2em;
+    color: palegreen;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    padding: 20px;
+    text-transform: uppercase;
+
+   }
+
+   .box{
+    display: flex;
+   text-align: center;
+   justify-content: space-around;
+   padding: 40px;
+   
+
+  
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+   }
+     .htm{
+    width: 300px;
+    height: 400px;
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+   }
+
+
+   .cs{
+    width: 300px;
+    height: 400px;
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+   }
+
+
+   .js{
+    width: 300px;
+    height: 400px;
+   }
+
+   .htmpic{
+    width: 280px;
+    height: 330px;
+   margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px white,0 0 20px white;
+   }
+
+   .csspic{
+    width: 280px;
+    height: 330px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(253, 255, 254),0 0 20px rgb(249, 252, 250);
+   }
+
+   .jspic{
+    width: 280px;
+    height: 330px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px white,0 0 20px white;
+   }
+ .jspic:hover{
+    transform:scale(.8);
+    transition: all .9s;
+ }
+ .csspic:hover{
+    transform:scale(.8);
+    transition: all .9s;
+ }
+ .htmpic:hover{
+    transform:scale(.8);
+    transition: all .9s;
+ }
+
+
+                                /******************* footer section *****************************/
+
+
+
+  #footer{
+    width: 100%;
+    height: 100vh;
+    background: #191919;
+    color:rgb(243, 247, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.fcon{
+    
+        height: 80vh;
+        
+}
+
+
+       .cfom{
+        margin-top: 10px;
+        text-align: center;
+        /* border: 2px solid white; */
+        padding: 15px 7px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px white,0 0 10px white;
+       }
+       .cfom h2{
+        text-transform: capitalize;
+        letter-spacing: 1.5px;
+        font-family: 'Kalam', cursive;
+       }
+         .cfom input{
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+            background: transparent;
+            color: white;
+            border-radius: 5px;
+            border: 2px solid white;
+         }
+         .cfom textarea{
+            text-align: center;
+            margin-top: 10px;
+            width: 80%;
+            background: transparent;
+            color: white;
+            border-radius: 5px;
+            border: 2px solid white;
+         }
+         .cfom button{
+
+            text-align: center;
+            padding: 10px;
+            background: indianred;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            font-size: 16px;
+            margin-top: 10px;
+            font-weight: 700;
+         }
+
+    .fnm{
+        font-size: 3em;
+    
+        text-align: center;
+        text-transform: uppercase;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        /* border-bottom: 4px solid white; */
+        font-weight: 700;
+    }
+
+
+
+      .icon-footer{
+           padding: 5px 0px;
+
+      }
+      .icon-footer a{
+        color: #191919;
+        margin: 10px 10px;
+        font-size: 40px;
+      }
+     .footnm{
+        height: 20vh;
+        color: #191919;
+        font-size: 2em;
+        
+        font-family: 'Kalam', cursive;
+        text-transform: capitalize;
+        word-spacing: 1px;
+        background: rgb(241, 232, 232);
+        width: 100%;
+        text-align: center;
+        padding: 0px 50px;
+        letter-spacing: 1.2px;
+        font-weight: 900;
+     }
+     .heart{
+        color: red;
+     }
+
+     @media only screen and (max-width:770px) {
+        #Home{
+            background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('portfoio.jfif');
+            background-size: cover;
+            font-size: 10px;
+        }
+        .icon a{
+            color: white;
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+
+
+       .menu a{
+            text-decoration: none;
+            margin: 0 5px;
+            color: white;
+            font-size: 1.2em;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            transition: all .2s;
+            font-weight: 400;
+        }
+
+
+        .flex{
+            display: flex;
+            justify-content: center;
+           align-items: center;
+            flex-direction: column;
+        
+        }
+
+
+
+
+         .abt img{
+            width: 200px;
+            height: 230px;
+           margin: 5px;
+            border-radius: 20px;
+           
+            
+        }
+
+        .intro{
+            color: white;
+            font-size: 1em;
+            width: 350px;
+            padding: 20px 30px;
+            word-spacing:2px;
+            letter-spacing:2px;
+            text-transform: capitalize;
+            
+        } 
+        .box{
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           }
+          
+           .htmpic{
+            width: 100px;
+            height: 120px;
+           margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 5px white,0 0 20px white;
+           }
+        
+           .csspic{
+            width: 100px;
+            height: 120px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 5px rgb(253, 255, 254),0 0 20px rgb(249, 252, 250);
+           }
+        
+           .jspic{
+            width: 100px;
+            height: 120px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 5px white,0 0 20px white;
+           }
+
+           .htm{
+            width: 300px;
+            height: 270px;
+            /* border: 2px solid red; */
+            text-transform: uppercase;
+            font-size: 1.3em;
+            letter-spacing: 2px;
+           }
+           .cs{
+            width: 300px;
+            height: 270px;
+            /* border: 2px solid red; */
+            text-transform: uppercase;
+            font-size: 1.3em;
+            letter-spacing: 2px;
+           }
+
+           .footnm{
+            font-size: 15px;
+            letter-spacing: 1.4px;
+            word-spacing: .6px;
+            padding: 30px;
+           }
+
+           .cfom{
+            margin:0px 10px;
+            margin-top: 40px;
+           }
+     }
